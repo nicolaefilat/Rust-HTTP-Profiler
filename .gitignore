@@ -1,8 +1,23 @@
+# Cargo build output
+/target/
+
+# Cargo dependency cache
+**/*.rs.bk
+
+# Ignore generated Cargo.lock in libraries (optional)
+# Cargo.lock
+
+# Executables
+*.dll
+*.so
+*.dylib
+
+# Editor and IDE files
+*.swp
+*~
+.vscode/
+
+
+# Test coverage reports
+/coverage/
 /target
-
-
-# Added by cargo
-#
-# already existing elements were commented out
-
-#/target
